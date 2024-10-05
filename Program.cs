@@ -7,13 +7,13 @@ class PasswordCracker
     private static DateTime dtEnd;
 
     // Target password to crack
-    private static string targetPassword = "abc123DE";
+    private static string targetPassword = "abc123D";
 
     // All possible characters (you can extend this)
     private static char[] characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".ToCharArray();
 
     // Max length of password (can be adjusted)
-    private static int maxLength = 8;
+    private static int maxLength = 7;
 
     public static void Main(string[] args)
     {
